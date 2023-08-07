@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Servlet 3.0//EN"
+        "http://glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<glassfish-web-app error-url="">
+    <context-root>/</context-root>
+
+    <security-role-mapping>
+        <role-name>getAllAccounts</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getCurrentUser</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getCurrentUserWithAccessLevels</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>changeAccountLanguage</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getAccountAndAccessLevels</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>grantAccessLevel</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getAccessLevel</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>deactivateAccessLevel</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>activateAccessLevel</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getAccount</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>createAccount</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>editAccessLevel</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>activateUserAccount</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>blockAccount</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>unblockAccount</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateUserPassword</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateOwnPassword</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateOwnEmail</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateUserEmail</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>confirmEmailChange</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>notifyAccessLevelChange</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>editSelfAccessLevel</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>createOrder</role-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getAllOrdersForSelf</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>getOrderDetails</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getWaitingOrders</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getOrdersToApprove</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>addMedicationToOrder</role-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>changeNumberOfMedicationsInOrder</role-name>
+        <group-name>PATIENT</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>createMedication</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getAllMedications</role-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>readAllShipments</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>readShipment</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateQueue</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>createShipment</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>updateShipment</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>deleteWaitingOrdersById</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>createCategory</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>approveOrder</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>getMedicationDetails</role-name>
+        <group-name>CHEMIST</group-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>withdraw</role-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>getAllCategories</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>approvedByPatient</role-name>
+        <group-name>PATIENT</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>editCategory</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>cancelOrder</role-name>
+        <group-name>CHEMIST</group-name>
+    </security-role-mapping>
+</glassfish-web-app>
