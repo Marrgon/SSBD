@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.929b7154.css",
+    "main.js": "/static/js/main.0a96ac17.js",
+    "static/js/787.20a2ac35.chunk.js": "/static/js/787.20a2ac35.chunk.js",
+    "static/media/pharmacy-shelves.jpg": "/static/media/pharmacy-shelves.5d5853103306db7032e5.jpg",
+    "static/media/lato-all-400-normal.woff": "/static/media/lato-all-400-normal.3dc1eff492ab1f598560.woff",
+    "static/media/lato-latin-400-normal.woff2": "/static/media/lato-latin-400-normal.be36596da218e1eec01c.woff2",
+    "static/media/lato-latin-ext-400-normal.woff2": "/static/media/lato-latin-ext-400-normal.361f3dbb9db6a5980326.woff2",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.929b7154.css.map": "/static/css/main.929b7154.css.map",
+    "main.0a96ac17.js.map": "/static/js/main.0a96ac17.js.map",
+    "787.20a2ac35.chunk.js.map": "/static/js/787.20a2ac35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.929b7154.css",
+    "static/js/main.0a96ac17.js"
+  ]
+}
